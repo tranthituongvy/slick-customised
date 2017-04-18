@@ -1,16 +1,16 @@
 {
-    "name": "myslick",
+    "name": "slick-customised",
     "main": [
         "slick/slick.js",
         "slick/slick.css",
         "slick/slick.less",
         "slick/slick.scss"
     ],
-    "homepage": "https://github.com/kenwheeler/slick",
+    "homepage": "https://github.com/tranthituongvy/slick-customised",
     "authors": [
-        "Ken Wheeler <ken_wheeler@me.com>"
+        "Vy Tran"
     ],
-    "description": "the last carousel you'll ever need",
+    "description": "customised from kenwheeler's slick",
     "keywords": [
         "responsive",
         "carousel",
