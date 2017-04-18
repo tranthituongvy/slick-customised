@@ -6,11 +6,12 @@
         "slick/slick.less",
         "slick/slick.scss"
     ],
-    "homepage": "https://github.com/tranthituongvy/slick-customised",
+    "version": "1.6.1",
+    "homepage": "https://github.com/kenwheeler/slick",
     "authors": [
-        "Vy Tran"
+        "Ken Wheeler <ken_wheeler@me.com>"
     ],
-    "description": "customised from kenwheeler's slick",
+    "description": "the last carousel you'll ever need",
     "keywords": [
         "responsive",
         "carousel",
