@@ -683,10 +683,10 @@
             $target = $(event.currentTarget),
             indexOffset, slideOffset, unevenOffset;
 		
-		if($target.hasClass('slick-disabled')){
-			event.preventDefault();
-			return;
-		}
+				if($target.hasClass('slick-disabled')){
+					event.preventDefault();
+					return;
+				}
 			
         // If target is a link, prevent default action.
         if($target.is('a')) {
@@ -2384,9 +2384,11 @@
             _.asNavFor(index);
         }
 		
-		if(index < 0) index = 0;
-		else if (index > _.slideCount - 1) index = _.slideCount - 1;
-
+				if(_.options.infinite === false){
+					if(index < 0) index = 0;
+					else if (index > _.slideCount - 1) index = _.slideCount - 1;
+				}
+				
         targetSlide = index;
         targetLeft = _.getLeft(targetSlide);
         slideLeft = _.getLeft(_.currentSlide);
