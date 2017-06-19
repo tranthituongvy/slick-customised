@@ -1427,6 +1427,13 @@
             _.$dots.show();
 
         }
+	    
+	if( _.slideCount < _.options.slidesToShow ) {
+		_.$slider.addClass('slick-no-slide');
+	}
+	else {
+		_.$slider.removeClass('slick-no-slide');
+	}
 
     };
 
